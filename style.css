@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.root {
+    margin-top: 60px;
+    margin-bottom: 120px;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 10px white;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.root > * {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content:center;
+    align-items: left;
+    background-color: white;
+}
+
+.header > h1 {
+    align-items: left;
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+h1 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+
+}
+
+.headerimg {
+    margin-top: 45px;
+    height: 300px;
+    justify-content:center;
+    align-items: center;
+}
+
+.preptime {
+    background-color: hsl(330, 100%, 98%);
+    margin-left: 50px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.preptime > * {
+    margin-left: 35px;
+}
+.preptime > h3 {
+    margin-top: 20px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", serif;
+
+}
+
+.preptime li::marker {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", serif;
+    font-weight: 600;
+}
+
+table {
+    margin-bottom: 25px;
+}
+
+th, td {
+    padding: 20px;
+    align-items: left;
+    font-family: "Outfit", serif;
+}
+
+tbody th,td {
+    border-bottom: 0.2px solid grey;
+    
+}
+
+#nobottomborder {
+    border-bottom: 0px solid grey;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", serif;
+    font-weight: 600;
+}
+
+li {
+    font-family: "Outfit", serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Outfit", serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.colcolor {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
